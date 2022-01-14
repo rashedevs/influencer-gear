@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-info{
+    display: flex;
+}
+.brands-logo{
+    display: flex;
+}
+.products-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.bonus-contents{
+    display: flex;
+}
+.bottom-part{
+    color: #FFFFFF;
+    background-color: rgb(39, 39, 63);
+    text-align: center;
+}
+.bottom-logo{
+    display: flex;
+    justify-content: center;
+}
+.final-logo{
+    margin: 10px;
+}
