@@ -317,7 +317,21 @@ margin: 20px;
 }
 /* -------------------------------------------------------------tablet------------------------------------------- */
 
-@media only screen and (min-width:689)and(max-width:992px){
+@media only screen and (min-width:689px){
+*{
+    margin: 0;
+    padding: 0;
+}
+body{font-size: 20px;
+font-weight: 500;
+justify-content: center;
+align-items: center;}
+.products-info{
+    margin-left: 90px;
+}
+.bonus-right{
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
 
-    
 }
