@@ -220,3 +220,104 @@ margin: 20px;
     font-size: 14px;
     font-weight: 700;
 }
+
+/*----------------------------------------------responsive-css----------------------------------------------*/
+
+/*----------------------------------------------mobile-devices--------------------------------------------- */
+
+@media only screen and (max-width:688px) {
+    .header-part{
+        display: inline;
+        text-align: center;
+        background-color: skyblue;
+        color:tomato;
+    }
+    .options{
+        display: inline;
+        margin-top: 20px;
+        width: fit-content;
+        justify-content: center;
+        color: red;
+    }
+    /* ---------------------------------------------banner */
+    .banner-info{
+        display: inline;
+    }
+    .left-banner{
+        width: fit-content;
+        margin-top:0px;
+        font-weight: 500;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .right-banner{
+        margin-top: 150px;
+    }
+    .right-banner img{
+       margin-left: 0px;
+       width:90%;
+    }
+    /* --------------------------------------------brands */
+    .brands-part{
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .brands-logo{
+        display: inline;
+        width: 90%;
+    }
+    /* ---------------------------------------collections */
+    .popular-collections{
+        text-align: center;
+    }
+    .collection-header h2{
+        width: fit-content;
+        font-size: 28px;
+        
+    }
+    .products-info{
+        grid-template-columns: 1fr;
+        height: fit-content;
+        justify-content: center;
+    }
+    .ratings{
+        display: inline;
+        justify-content: center;
+    }
+    .popular-collections .right-arrow>a{
+        position: relative;
+        left: 0;
+    }
+    /*-----------------------------------------bonus------- */
+    .bonus-part{
+        display: inline;
+        justify-content: center;
+    }
+    .bonus-contents{
+        display: inline;
+        width: 80%;
+        text-align: center;
+    }
+    .bonus-left{
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        width: 90%;
+    }
+    .bonus-right{
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+    .bonus-right .button{
+        width: fit-content;
+    }
+}
+/* -------------------------------------------------------------tablet------------------------------------------- */
+
+@media only screen and (min-width:689)and(max-width:992px){
+
+    
+}
