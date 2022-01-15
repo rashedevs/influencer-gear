@@ -7,9 +7,41 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/*------------------------------------------ header-style ---------------------------------------*/
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+.options{
+    display: flex;
+    list-style: none;
+}
+.options li{
+margin:0px 10px;
+}
+.options li a{
+    color: #3A3A3A;
+    text-decoration: none;
+}
+/*---------------------------------------------- banner-part------------------------------------ */
+
 .banner-info{
     display: flex;
+    margin: 50px 120px;
 }
+.left-banner{
+width: 50%;
+height: 270px;
+margin-top: 140px;
+
+}
+.right-banner{
+    background-image: url(./images/Circle\ design.svg);
+    margin-left: auto;
+}
+
+/*---------------------------------------------- brands-part --------------------------------------*/
 .brands-logo{
     display: flex;
 }
