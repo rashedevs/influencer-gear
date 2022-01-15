@@ -41,13 +41,56 @@ margin-top: 140px;
     margin-left: auto;
 }
 
-/*---------------------------------------------- brands-part --------------------------------------*/
+/*--------------------------------------------------brands-part --------------------------------------*/
+
+.brands-part{
+    margin:50px 120px;
+}
 .brands-logo{
     display: flex;
+    justify-content: center;
 }
+.brands-logo img{
+    margin: 25px;
+}
+
+/*------------------------------------------------ collection-part---------------------------------- */
+
+.popular-collections{
+    /* height: 1662px; */
+    margin: 50px 120px;
+    
+}
+ .popular-collections .collection-header{
+    text-align: center;
+margin: 0px 0px 25px 0px;
+}
+.product{
+    /* width: 330px;
+    height: 476px; */
+    margin: 15px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 0px 10px 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+    
 .products-info{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    /* align-items: center; */
+    justify-content: center;
+background-color: rgba(224, 212, 212, 0.15);
+}
+.product .ratings{
+    display: flex;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.point{
+    margin-left: 30px;
 }
 .bonus-contents{
     display: flex;
