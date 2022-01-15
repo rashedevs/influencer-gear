@@ -39,15 +39,28 @@ font-weight: 600;
 .left-banner{
 width: 50%;
 height: 270px;
-margin-top: 140px;
+margin-top: 70px;
 font-size: 16px;
 font-weight: 600;
 
 }
 .right-banner{
     background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
     margin-left: auto;
+    width:475px;
+    height: 475px;
+    transition: 1s;
 }
+.right-banner img{
+    display: block;
+    width: 100%;
+}
+.right-banner:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
 .button{
     width: 196px;
     height: 44px;
