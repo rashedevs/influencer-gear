@@ -102,9 +102,29 @@ margin: 20px;
 }
 
 /*----------------------------------------------------------bonus-part--------------------------------------- */
+
+.bonus-part{
+    margin:50px 120px;
+}
 .bonus-contents{
     display: flex;
 }
+.bonus-left{
+    width: 50%;
+    align-items: center;
+}
+.bonus-left img{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
+.bonus-right{ 
+    height: 225px; 
+    width: 610px;
+    align-items: center;
+    margin: 70px 30px 10px 5px;
+}
+
 .bottom-part{
     color: #FFFFFF;
     background-color: rgb(39, 39, 63);
