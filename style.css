@@ -90,7 +90,7 @@ font-weight: 600;
 /*------------------------------------------------ collection-part---------------------------------- */
 
 .popular-collections{
-    /* height: 1662px; */
+
     margin: 70px 120px;
     
 }
@@ -107,8 +107,8 @@ font-weight: 600;
 margin: 0px 0px 25px 0px;
 }
 .product{
-    /* width: 330px;
-    height: 476px; */
+    width: 330px;
+    height: 476px;
     margin: 15px;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
@@ -128,7 +128,7 @@ margin: 0px 0px 25px 0px;
 .products-info{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 background-color: rgba(224, 212, 212, 0.15);
 }
