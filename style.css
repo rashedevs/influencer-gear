@@ -58,7 +58,7 @@ margin-top: 140px;
 
 .popular-collections{
     /* height: 1662px; */
-    margin: 50px 120px;
+    margin: 70px 120px;
     
 }
  .popular-collections .collection-header{
@@ -92,6 +92,16 @@ background-color: rgba(224, 212, 212, 0.15);
 .point{
     margin-left: 30px;
 }
+.popular-collections .right-arrow{
+margin: 20px;
+    }
+.popular-collections .right-arrow>a{
+    position: relative;
+    text-decoration: none;
+    left:990px;
+}
+
+/*----------------------------------------------------------bonus-part--------------------------------------- */
 .bonus-contents{
     display: flex;
 }
